@@ -1,0 +1,111 @@
+/* =============================================
+ *
+ *   general styles
+ *
+ * ============================================= */
+
+body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section,
+summary, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+
+body {
+  font-family: 'Heebo', sans-serif;
+  background: #fff;
+}
+
+img {
+  max-width: 100%;
+  padding: 0 0 20px 0;
+}
+
+p {
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  padding-bottom: 10px;
+  font-weight: 300;
+}
+
+h3 {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.03em;    /* spacing relative to font size */
+}
+
+h5 {
+  color: #3c95f0;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.1em;    /* spacing relative to font size */
+
+}
+
+officers img {
+  float: left;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-bottom {
+  margin-top: 80px;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+section p {
+  padding-bottom: 20px;
+}
+
+/* =============================================
+ *
+ *   footer
+ *
+ * ============================================= */
+
+ footer {
+   background-color: #00274c;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   position: relative;
+   /* left: 0;
+   bottom: 0;
+   width: 100%;*/
+   color: white;
+}
+
+footer p {
+  font-size: .7em;
+}
